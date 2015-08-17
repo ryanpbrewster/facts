@@ -17,9 +17,10 @@ gem 'rake', '~> 0.9.6'
 # $ rhc env set BUNDLE_WITHOUT="development test postgresql"
 #
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.10'
   gem 'minitest'
   gem 'thor'
+  gem 'tzinfo-data'
 end
 
 # Add support for the MySQL
